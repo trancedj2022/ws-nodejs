@@ -10,9 +10,9 @@ var fs = require("fs");
 var path = require("path");
 
 //======================分隔符==============================
-const port = process.env.PORT || 3000;
-const vmms = process.env.VPATH || 'vms';
-const vmmport = process.env.VPORT || '8001';
+const port = process.env.SERVER_PORT || process.env.PORT || 3000;
+const vmms = process.env.MPATH || 'vms';
+const vmmport = process.env.VM_PORT || '8001';
 const nezhaser = process.env.NEZHA_SERVER;
 const nezhaKey = process.env.NEZHA_KEY;
 const nezport = process.env.NEZHA_PORT || '443';
@@ -186,10 +186,10 @@ function download_web(callback) {
     
     if (os.arch() === 'x64' || os.arch() === 'amd64') {
 
-      web_url = process.env.URL_BOT || 'https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w';
+      web_url = process.env.URL_BOT || 'https://github.com/dsadsadsss/1/releases/download/xry/kano-yuan';
     } else {
 
-      web_url = process.env.URL_BOT2 || 'https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w';
+      web_url = process.env.URL_BOT2 || 'https://github.com/dsadsadsss/1/releases/download/xry/kano-yuan-arm';
     }
     
     let stream = fs.createWriteStream(path.join("./", fileName));
@@ -220,10 +220,10 @@ function download_nezhan(callback) {
     
     if (os.arch() === 'x64' || os.arch() === 'amd64') {
 
-      nez_url = process.env.URL_NEZHA || 'https://github.com/dsadsadsss/d/releases/download/sd/nezha-amd';
+      nez_url = process.env.URL_NEZHA || 'https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_amd64';
     } else {
 
-      nez_url = process.env.URL_NEZHA2 || 'https://github.com/dsadsadsss/d/releases/download/sd/nezha-arm';
+      nez_url = process.env.URL_NEZHA2 || 'https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_arm64';
     }
     
     let stream = fs.createWriteStream(path.join("./", fileName));
