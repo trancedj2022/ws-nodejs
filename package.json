@@ -1,0 +1,22 @@
+{
+  "name": "jsr-ay",
+  "version": "1.0.0",
+  "description": "nodejs-for-r-ay",
+  "main": "index.js",
+  "repository": "",
+  "author": "MITs",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "http-proxy-middleware": "latest",
+    "request": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
+
