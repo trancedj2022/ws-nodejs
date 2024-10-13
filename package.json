@@ -1,26 +1,16 @@
 {
-  "name": "optimized-server",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "An optimized server application with web, Nezha, and Cloudflare support",
+  "description": "Your project description",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "server",
-    "express",
-    "nezha",
-    "cloudflare"
-  ],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "http-proxy-middleware": "^2.0.1",
-    "request": "^2.88.2"
+    "axios": "^1.5.0",
+    "express": "^4.18.0",
+    "http-proxy-middleware": "^2.0.0"
   },
-  "engines": {
-    "node": ">=12.0.0"
-  }
+  "author": "Your Name",
+  "license": "MIT"
 }
