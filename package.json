@@ -1,7 +1,7 @@
 {
   "name": "jsray",
   "version": "1.0.0",
-  "description": "Your project description",
+  "description": "app for pr",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
