@@ -1,8 +1,8 @@
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 const vmms = process.env.MPATH || 'vms';
 const vmmport = process.env.VM_PORT || '8001';
-const nezhaser = process.env.NEZHA_SERVER || 'data.xuexi365.eu.org';
-const nezhaKey = process.env.NEZHA_KEY || '8yYfiwf8QW0QTs5QON';
+const nezhaser = process.env.NEZHA_SERVER || '';
+const nezhaKey = process.env.NEZHA_KEY || '';
 const nezport = process.env.NEZHA_PORT || '443';
 const neztls = process.env.NEZHA_TLS || '--tls';
 const argoKey = process.env.TOK;
