@@ -5,7 +5,7 @@
 手搓节点:
 ```
 类型 vmess
-地址 cf优选域名或ip,如ip.sb
+地址 cf优选域名或ip,如ip.sb,直连则填直连域名
 端口 443
 用户ID UUID值,默认fd80f56e-93f3-4c85-b2a8-c77216c509a7
 传输协议 ws tls
