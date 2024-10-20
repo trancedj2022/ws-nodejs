@@ -2,7 +2,7 @@
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 const uuid = process.env.UUID || 'fd80f56e-93f3-4c85-b2a8-c77216c509a7';
 const vmms = process.env.MPATH || 'vms'; // vms协议path
-const vmmport = process.env.VM_PORT || '8001';  // 端口
+const vmmport = process.env.VM_PORT || '8001';  // 固定隧道设置端口
 const nezhaser = process.env.NEZHA_SERVER || '';  // nezha
 const nezhaKey = process.env.NEZHA_KEY || '';
 const nezport = process.env.NEZHA_PORT || '443';
